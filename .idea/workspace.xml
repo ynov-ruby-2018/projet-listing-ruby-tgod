@@ -39,17 +39,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="30" />
-          <entry key="erb" value="34" />
+          <entry key="erb" value="315" />
           <entry key="js" value="2" />
-          <entry key="rb" value="218" />
+          <entry key="rb" value="244" />
           <entry key="scss" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="2" />
-          <entry key="RHTML" value="34" />
-          <entry key="Ruby" value="248" />
+          <entry key="RHTML" value="315" />
+          <entry key="Ruby" value="274" />
           <entry key="SCSS" value="2" />
         </counts>
       </usages-collector>
@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listing/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="105">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -78,13 +78,9 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listing/app/views/welcome/home.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -117,9 +113,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/listing/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -134,9 +137,10 @@
         <option value="$PROJECT_DIR$/listing/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/listing/Gemfile" />
         <option value="$PROJECT_DIR$/listing/app/controllers/homepage_controller.rb" />
-        <option value="$PROJECT_DIR$/listing/config/routes.rb" />
         <option value="$PROJECT_DIR$/listing/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/listing/app/views/welcome/home.html.erb" />
+        <option value="$PROJECT_DIR$/listing/config/routes.rb" />
+        <option value="$PROJECT_DIR$/listing/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -323,7 +327,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3535000" />
+    <option name="totallyTimeSpent" value="9457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -373,9 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/listing/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
@@ -394,8 +395,8 @@
     <entry file="file://$PROJECT_DIR$/listing/app/controllers/homepages_controller.rb" />
     <entry file="file://$PROJECT_DIR$/listing/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -407,9 +408,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/listing/app/views/welcome/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listing/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="218">
+          <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
