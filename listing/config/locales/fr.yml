@@ -1,0 +1,33 @@
+# config/locales/fr.yml
+fr:
+  search: "Rechercher"
+  title: "Titre"
+  content: "Contenu"
+  tags: "Tags"
+  image: "Image"
+  category: "Catégorie"
+  hello: "Hello world"
+  homepage:
+    search: "Rechercher"
+    create: "Creer mes listings"
+  date:
+    day_names:
+    - "Lundi"
+    - "Mardi"
+    - "Mercredi"
+    - "Jeudi"
+    - "Vendredi"
+    - "Samedi"
+    - "Dimanche"
+
+  time:
+    formats:
+      default: "%A %m %Y à %H:%M"
+      short: "%d %m"
+  activerecord:
+    errors:
+      models:
+        post:
+          attributes:
+            title:
+              blank: "Le titre doit être saisi"
