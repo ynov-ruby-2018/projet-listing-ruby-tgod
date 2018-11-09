@@ -82,6 +82,7 @@
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v1.2.0, RVM: ruby-2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="remotipart (v1.4.2, RVM: ruby-2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v2.4.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="route_translator (v5.6.4, RVM: ruby-2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby_dep (v1.5.0, RVM: ruby-2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v1.2.2, RVM: ruby-2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.7.0, RVM: ruby-2.5.1) [gem]" level="application" />

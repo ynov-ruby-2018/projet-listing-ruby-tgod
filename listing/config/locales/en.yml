@@ -30,4 +30,19 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  title: "Title"
+  content: "Content"
+  tags: "Tags"
+  image: "Image"
+  category: "Category"
   hello: "Hello world"
+  homepage:
+    create: "Create my listings"
+    search: "Search"
+  activerecord:
+    errors:
+      models:
+        post:
+          attributes:
+            title:
+              blank: "Title can't be blank"
