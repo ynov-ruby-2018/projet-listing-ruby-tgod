@@ -8,117 +8,7 @@
       <change afterPath="$PROJECT_DIR$/MyListing/app/views/listings/new.html.erb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MyListing/app/views/welcome/home.html.erb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MyListing/config/locales/fr.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projet-listing-ruby-tgod.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projet-listing-ruby-tgod.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/.ruby-version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/Rakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/assets/config/manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/assets/images/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/assets/javascripts/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/assets/javascripts/cable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/assets/javascripts/channels/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/assets/stylesheets/application.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/channels/application_cable/channel.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/channels/application_cable/connection.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/controllers/application_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/controllers/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/controllers/welcome_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/helpers/application_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/jobs/application_job.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/mailers/application_mailer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/models/announcement.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/models/application_record.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/models/category.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/models/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/models/message.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/models/user.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/views/layouts/application.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/views/layouts/mailer.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/views/layouts/mailer.text.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/views/welcome/home.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/bin/bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/bin/rails" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/bin/rake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/bin/setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/bin/spring" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/bin/update" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/bin/yarn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config.ru" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/application.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/boot.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/cable.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/credentials.yml.enc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/database.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/environment.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/environments/development.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/environments/production.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/environments/test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/initializers/application_controller_renderer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/initializers/assets.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/initializers/backtrace_silencers.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/initializers/content_security_policy.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/initializers/cookies_serializer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/initializers/devise.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/initializers/inflections.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/initializers/mime_types.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/initializers/rails_admin.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/initializers/wrap_parameters.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/locales/devise.en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/locales/en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/locales/fr.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/puma.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/routes.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/spring.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/config/storage.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181109104146_devise_create_users.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181109171342_create_announcements.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181110152721_create_categories.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181110153214_add_column_to_users.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181110153852_create_messages.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181111010956_add_category_references_to_announcements.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181111011454_add_user_references_to_messages.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181111011948_add_user_references_to_announcements.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/db/schema.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/db/seeds.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/lib/assets/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/lib/tasks/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/log/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/public/422.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/public/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/public/apple-touch-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/public/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/storage/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/application_system_test_case.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/controllers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/announcements.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/categories.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/files/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/messages.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/users.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/helpers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/integration/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/mailers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/models/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/models/announcement_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/models/category_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/models/message_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/models/user_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/system/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/test/test_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/tmp/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/vendor/.keep" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,6 +42,7 @@
           <entry key="rb" value="70" />
           <entry key="ru" value="1" />
           <entry key="scss" value="1" />
+          <entry key="xml" value="1" />
           <entry key="yml" value="7" />
         </counts>
       </usages-collector>
@@ -163,6 +54,7 @@
           <entry key="RHTML" value="13" />
           <entry key="Ruby" value="72" />
           <entry key="SCSS" value="1" />
+          <entry key="XML" value="1" />
           <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
@@ -221,13 +113,6 @@
             <state>
               <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyListing/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-208" />
           </provider>
         </entry>
       </file>
@@ -631,12 +516,12 @@
       <workItem from="1542028950132" duration="455000" />
       <workItem from="1542747840417" duration="5631000" />
       <workItem from="1542792856474" duration="819000" />
-      <workItem from="1542793914091" duration="3881000" />
+      <workItem from="1542793914091" duration="4360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29780000" />
+    <option name="totallyTimeSpent" value="30259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -669,7 +554,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/listing/config/routes.rb" />
     <entry file="file://$PROJECT_DIR$/listing/app/models/application_record.rb" />
     <entry file="file://$PROJECT_DIR$/listing/app/models/category.rb" />
     <entry file="file://$PROJECT_DIR$/listing/app/models/announcement.rb" />
@@ -836,6 +720,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyListing/app/views/devise/confirmations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12585" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyListing/app/views/listings/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
