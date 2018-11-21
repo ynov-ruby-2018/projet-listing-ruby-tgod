@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   localized do
     root to: "welcome#home"
     resources :listings
+    resources :accounts
   end
 
 

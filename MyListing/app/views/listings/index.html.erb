@@ -1,1 +1,29 @@
-afficher les listings
+<div>
+    <% if @listing.blank? %>
+      <%= Contenu vide %>
+    <%else %>
+      <% @listing.each do |listing| %>
+        <div>
+          <div><%= listing.titre %></div>
+          <div class="row">
+            <div><%= listing.created_at %></div>
+            <div><%= listing.category.nom %></div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">photo</div>
+            <div>
+              <div><%= listing.description %></div>
+              <div class="row justify-content-between">
+                <div class="col-4">
+                  <%= listing.prix %>
+                </div>
+                <div class="col-4">
+                  <%= link_to t("plug"), "/" , class:"btn btn-success " %>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    <%end %>
+</div>

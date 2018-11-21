@@ -7,9 +7,13 @@ fr:
   image: "Image"
   category: "Catégorie"
   hello: "Hello world"
+  description: "Description"
+  price: "prix"
+  plug: "Contacter vendeur"
   homepage:
     search: "Rechercher"
     create: "Creer mes listings"
+    account: "Mon Compte"
   date:
     day_names:
     - "Lundi"
