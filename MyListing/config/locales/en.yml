@@ -36,9 +36,13 @@ en:
   image: "Image"
   category: "Category"
   hello: "Hello world"
+  description: "Description"
+  price: "price"
+  plug: "Contact seller"
   homepage:
     create: "Create my listings"
     search: "Search"
+    account: "My Account"
   activerecord:
     errors:
       models:
