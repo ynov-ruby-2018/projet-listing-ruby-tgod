@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Listing</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <nav class="navbar navbar-expand-lg  navbar-dark navbar-trans"  style="background-color:rgba(1,21,64,0.94) ;">
+    <a class="navbar-brand font-weight-bold" href="/"  >Listings</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ">
+      </ul>
+      <span class="navbar-text">
+        <div class="row">
+          <div>
+            <% if user_signed_in? %>
+              <%= link_to ">>Logout", destroy_user_session_path, method: :delete, class:"font-weight-bold"  %>
+            <% else %>
+              <%= link_to ">>Login", new_user_session_path, class:"font-weight-bold"  %>
+            <% end %>
+          </div>
+          <div class="col-md-4">
+            <select data-do="select_currency" class="custom-select">>
+              <option value="eur" >EURO</option>
+              <option value="usd" >DOLLAR</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+             <%= link_to t("homepage.create"), new_listing_path , class:"btn btn-success " %>
+          </div>
+        </div>
+    </span>
+    </div>
+  </nav>
+  <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>

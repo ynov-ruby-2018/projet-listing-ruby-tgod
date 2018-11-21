@@ -2,12 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5032b846-11d6-4096-9cc5-a651dd9979ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/listing/app/controllers/welcome_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listing/app/views/welcome/home.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listing/config/locales/fr.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyListing/app/controllers/listings_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyListing/app/controllers/welcome_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyListing/app/views/listings/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyListing/app/views/listings/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyListing/app/views/welcome/home.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyListing/config/locales/fr.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projet-listing-ruby-tgod.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projet-listing-ruby-tgod.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/models/announcement.rb" beforeDir="false" afterPath="$PROJECT_DIR$/listing/app/models/announcement.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing/app/models/message.rb" beforeDir="false" afterPath="$PROJECT_DIR$/listing/app/models/message.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/.ruby-version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/assets/config/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/assets/images/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/assets/javascripts/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/assets/javascripts/cable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/assets/javascripts/channels/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/assets/stylesheets/application.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/channels/application_cable/channel.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/channels/application_cable/connection.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/controllers/application_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/controllers/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/controllers/welcome_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/helpers/application_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/jobs/application_job.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/mailers/application_mailer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/models/announcement.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/models/application_record.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/models/category.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/models/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/models/message.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/models/user.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/views/layouts/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/views/layouts/mailer.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/views/layouts/mailer.text.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/app/views/welcome/home.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/bin/bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/bin/rails" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/bin/rake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/bin/setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/bin/spring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/bin/update" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/bin/yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config.ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/application.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/boot.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/cable.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/credentials.yml.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/database.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/environment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/environments/development.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/environments/production.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/environments/test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/initializers/application_controller_renderer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/initializers/assets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/initializers/backtrace_silencers.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/initializers/content_security_policy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/initializers/cookies_serializer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/initializers/devise.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/initializers/inflections.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/initializers/mime_types.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/initializers/rails_admin.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/initializers/wrap_parameters.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/locales/devise.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/locales/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/locales/fr.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/puma.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/routes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/spring.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/config/storage.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181109104146_devise_create_users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181109171342_create_announcements.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181110152721_create_categories.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181110153214_add_column_to_users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181110153852_create_messages.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181111010956_add_category_references_to_announcements.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181111011454_add_user_references_to_messages.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/db/migrate/20181111011948_add_user_references_to_announcements.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/db/schema.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/db/seeds.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/lib/assets/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/lib/tasks/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/log/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/public/422.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/public/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/public/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/storage/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/application_system_test_case.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/controllers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/announcements.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/categories.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/files/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/messages.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/fixtures/users.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/helpers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/integration/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/mailers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/models/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/models/announcement_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/models/category_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/models/message_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/models/user_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/system/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/test/test_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/tmp/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing/vendor/.keep" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,40 +130,48 @@
     <session id="-25217721">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="1" />
-          <entry key="erb" value="4" />
-          <entry key="haml" value="1" />
+          <entry key="enc" value="1" />
+          <entry key="erb" value="13" />
+          <entry key="haml" value="2" />
           <entry key="js" value="1" />
-          <entry key="rb" value="28" />
+          <entry key="key" value="1" />
+          <entry key="rb" value="70" />
+          <entry key="ru" value="1" />
           <entry key="scss" value="1" />
-          <entry key="yml" value="3" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Haml" value="1" />
+          <entry key="Haml" value="2" />
           <entry key="JavaScript" value="1" />
-          <entry key="RHTML" value="4" />
-          <entry key="Ruby" value="29" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="RHTML" value="13" />
+          <entry key="Ruby" value="72" />
           <entry key="SCSS" value="1" />
-          <entry key="YAML" value="3" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="31" />
-          <entry key="erb" value="334" />
+          <entry key="erb" value="440" />
           <entry key="js" value="2" />
-          <entry key="rb" value="367" />
+          <entry key="rb" value="552" />
           <entry key="scss" value="2" />
           <entry key="yml" value="71" />
         </counts>
@@ -60,8 +179,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="2" />
-          <entry key="RHTML" value="334" />
-          <entry key="Ruby" value="398" />
+          <entry key="RHTML" value="440" />
+          <entry key="Ruby" value="583" />
           <entry key="SCSS" value="2" />
           <entry key="YAML" value="71" />
         </counts>
@@ -74,83 +193,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181110153852_create_messages.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listing/app/models/user.rb">
+        <entry file="file://$PROJECT_DIR$/MyListing/app/controllers/listings_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="165">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181109104146_devise_create_users.rb">
+        <entry file="file://$PROJECT_DIR$/MyListing/app/views/listings/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listing/app/models/message.rb">
+        <entry file="file://$PROJECT_DIR$/MyListing/app/views/welcome/home.html.erb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyListing/app/views/listings/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyListing/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-208" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyListing/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyListing/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listing/app/models/announcement.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181111011948_add_user_references_to_announcements.rb">
+        <entry file="file://$PROJECT_DIR$/MyListing/app/views/devise/passwords/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181111011454_add_user_references_to_messages.rb">
+        <entry file="file://$PROJECT_DIR$/MyListing/app/views/devise/passwords/new.html.erb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181111010956_add_category_references_to_announcements.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listing/app/models/category.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listing/app/models/application_record.rb">
+        <entry file="file://$PROJECT_DIR$/MyListing/app/views/devise/confirmations/new.html.erb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Erb File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/listing" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MyListing" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -158,18 +282,28 @@
         <option value="$PROJECT_DIR$/listing/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/listing/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/listing/app/controllers/homepage_controller.rb" />
-        <option value="$PROJECT_DIR$/listing/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/listing/app/views/welcome/home.html.erb" />
         <option value="$PROJECT_DIR$/listing/Gemfile" />
         <option value="$PROJECT_DIR$/listing/config/application.rb" />
         <option value="$PROJECT_DIR$/listing/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/listing/config/locales/fr.yml" />
-        <option value="$PROJECT_DIR$/listing/config/routes.rb" />
-        <option value="$PROJECT_DIR$/listing/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/listing/app/models/message.rb" />
         <option value="$PROJECT_DIR$/listing/app/models/announcement.rb" />
         <option value="$PROJECT_DIR$/listing/app/models/user.rb" />
         <option value="$PROJECT_DIR$/listing/app/models/category.rb" />
+        <option value="$PROJECT_DIR$/listing/config/routes.rb" />
+        <option value="$PROJECT_DIR$/listing/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/listing/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/MyListing/config/application.rb" />
+        <option value="$PROJECT_DIR$/MyListing/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/MyListing/app/models/listing.rb" />
+        <option value="$PROJECT_DIR$/MyListing/app/models/category.rb" />
+        <option value="$PROJECT_DIR$/MyListing/config/routes.rb" />
+        <option value="$PROJECT_DIR$/MyListing/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/MyListing/app/views/welcome/new.html.erb" />
+        <option value="$PROJECT_DIR$/MyListing/app/views/listings/new.html.erb" />
+        <option value="$PROJECT_DIR$/MyListing/app/controllers/listings_controller.rb" />
+        <option value="$PROJECT_DIR$/MyListing/app/views/listings/index.html.erb" />
       </list>
     </option>
   </component>
@@ -181,12 +315,12 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/listing/package.json" />
+      <path value="$PROJECT_DIR$/MyListing/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="20" />
-    <option name="y" value="55" />
+    <option name="y" value="52" />
     <option name="width" value="1260" />
     <option name="height" value="694" />
   </component>
@@ -196,83 +330,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="listing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="listing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="listing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="listing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="listing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="listing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="welcome" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="listing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="listing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="locales" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="listing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="db" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="listing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="db" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="migrate" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,13 +396,108 @@
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MyListing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MyListing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MyListing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="channels" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MyListing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MyListing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MyListing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="devise" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MyListing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="devise" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="confirmations" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MyListing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="devise" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="passwords" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MyListing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="listings" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MyListing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="welcome" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="projet-listing-ruby-tgod" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MyListing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.settings.patched" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -358,6 +510,109 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: MyListing">
+    <configuration name="Development: MyListing" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="MyListing" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../MyListing" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: MyListing" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="MyListing" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../MyListing" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: MyListing" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="MyListing" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../MyListing" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: MyListing" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="MyListing" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../MyListing" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Rake.test: MyListing" />
+      <item itemvalue="Rake.spec: MyListing" />
+      <item itemvalue="Rails.Production: MyListing" />
+      <item itemvalue="Rails.Development: MyListing" />
+    </list>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -372,17 +627,21 @@
       <updated>1541756352518</updated>
       <workItem from="1541756353859" duration="977000" />
       <workItem from="1541857203432" duration="4130000" />
-      <workItem from="1541887803731" duration="1777000" />
+      <workItem from="1541887803731" duration="2829000" />
+      <workItem from="1542028950132" duration="455000" />
+      <workItem from="1542747840417" duration="5631000" />
+      <workItem from="1542792856474" duration="819000" />
+      <workItem from="1542793914091" duration="3881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17942000" />
+    <option name="totallyTimeSpent" value="29780000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -395,8 +654,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49919224" visible="true" weight="0.328594" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50080776" side_tool="true" weight="0.328594" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4983845" visible="true" weight="0.27297667" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5016155" side_tool="true" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,150 +669,178 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/listing/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/views/homepages/home.html.rb" />
-    <entry file="file://$PROJECT_DIR$/listing/app/controllers/homepages_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/listing/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/views/welcome/home.html.erb">
+    <entry file="file://$PROJECT_DIR$/listing/config/routes.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/app/models/application_record.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/app/models/category.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/app/models/announcement.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/app/controllers/welcome_controller.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181109171342_create_announcements.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/config/locales/fr.yml" />
+    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181110153852_create_messages.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/app/models/message.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/app/models/user.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181111011948_add_user_references_to_announcements.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181111011454_add_user_references_to_messages.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181110153214_add_column_to_users.rb" />
+    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181109104146_devise_create_users.rb" />
+    <entry file="file://$PROJECT_DIR$/MyListing/config.ru">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/controllers/welcome_controller.rb">
+    <entry file="file://$PROJECT_DIR$/MyListing/test/fixtures/categories.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/test/application_system_test_case.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/test/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/config/cable.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/config/credentials.yml.enc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/config/master.key">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/MyListing/db/migrate/20181111010956_add_category_references_to_announcements.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/models/application_record.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/config/initializers/rails_admin.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/db/migrate/20181111011948_add_user_references_to_announcements.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/db/migrate/20181121100136_add_user_references_to_listings.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/db/migrate/20181121100204_add_category_references_to_listings.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/models/message.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/models/listing.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/models/category.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/views/welcome/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/actionpack-5.2.1/lib/action_controller/metal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="212" column="4" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/views/welcome/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/views/listings/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/controllers/listings_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/config/locales/fr.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181109171342_create_announcements.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181110152721_create_categories.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181110153214_add_column_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181110153852_create_messages.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181111010956_add_category_references_to_announcements.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181111011400_add_user_references_messages.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181111011454_add_user_references_to_messages.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/models/application_record.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/models/message.rb">
+    <entry file="file://$PROJECT_DIR$/MyListing/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/models/category.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/app/models/announcement.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181111011948_add_user_references_to_announcements.rb">
+    <entry file="file://$PROJECT_DIR$/MyListing/app/views/devise/passwords/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/listing/db/migrate/20181109104146_devise_create_users.rb">
+    <entry file="file://$PROJECT_DIR$/MyListing/app/views/devise/passwords/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/views/devise/confirmations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyListing/app/views/listings/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
