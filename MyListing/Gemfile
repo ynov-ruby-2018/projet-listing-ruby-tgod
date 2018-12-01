@@ -44,6 +44,7 @@ gem 'route_translator'
 gem 'simple_form' #https://github.com/plataformatec/simple_form
 
 
+gem "paperclip", "~> 6.0.0" #https://github.com/thoughtbot/paperclip
 
 
 group :development, :test do

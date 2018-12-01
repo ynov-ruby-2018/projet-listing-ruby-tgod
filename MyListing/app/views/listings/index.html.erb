@@ -10,7 +10,11 @@
             <div><%= listing.category.nom %></div>
           </div>
           <div class="row">
-            <div class="col-md-3">photo</div>
+            <div class="col-md-3">
+              <% if listing.picture && listing.picture.file %>
+                <%= image_tag(listing.picture.file.url(:original), class: "col-md-10 rounded mx-auto d-block") %>
+              <%end %>
+            </div>
             <div>
               <div><%= listing.description %></div>
               <div class="row justify-content-between">

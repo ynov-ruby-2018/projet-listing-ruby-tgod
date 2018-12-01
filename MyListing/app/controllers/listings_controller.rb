@@ -8,12 +8,15 @@ class ListingsController < ApplicationController
 
   def new
     @listing = Listing.new
+    @listing.build_picture
   end
 
   def create
     @listing = Listing.new(listings_params)
     if @listing.save
       redirect_to listings_en_path
+    else
+      redirect_to new_listing_en_path
     end
   end
 
@@ -24,7 +27,9 @@ class ListingsController < ApplicationController
         :titre,
         :description,
         :prix,
-        :category_id).merge(user_id: current_user.id)
+        :category_id,
+        picture_attributes: [:file]).merge(user_id: current_user.id)
   end
+
 
 end

@@ -39,6 +39,7 @@ en:
   description: "Description"
   price: "price"
   plug: "Contact seller"
+  choose: "Choose a picture"
   homepage:
     create: "Create my listings"
     search: "Search"
