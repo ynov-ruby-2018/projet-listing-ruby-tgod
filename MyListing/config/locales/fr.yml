@@ -10,6 +10,7 @@ fr:
   description: "Description"
   price: "prix"
   plug: "Contacter vendeur"
+  choose: "Choisir une photo"
   homepage:
     search: "Rechercher"
     create: "Creer mes listings"

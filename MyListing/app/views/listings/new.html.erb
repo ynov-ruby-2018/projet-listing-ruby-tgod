@@ -3,5 +3,8 @@
     <%= f.input :description, label: t("description")%>
     <%= f.association :category ,label: t("category"), label_method: :nom, value_method: :id, include_blank: false %>
     <%= f.input :prix, label: t("price")%>
+    <%= f.simple_fields_for :picture do |form| %>
+      <%= form.input :file , label: t("choose") %>
+    <% end %>
     <%= f.button :submit , {class:'btn btn-success'} %>
   <% end %>
