@@ -1,7 +1,4 @@
 <div>
-    <% if @listing.blank? %>
-      <%= Contenu vide %>
-    <%else %>
       <% @listing.each do |listing| %>
         <div>
           <div><%= listing.titre %></div>
@@ -29,5 +26,4 @@
           </div>
         </div>
       <% end %>
-    <%end %>
 </div>

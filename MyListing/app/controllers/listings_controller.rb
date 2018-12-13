@@ -3,7 +3,10 @@ class ListingsController < ApplicationController
   before_action :authenticate_user!, :except =>[:index]
 
   def index
-    @listing = Listing.all.order('created_at DESC')
+    @listing = Listing.search(params[:search])
+    if @listing.blank?
+      @listing = Listing.all.order('created_at DESC')
+    end
   end
 
   def new

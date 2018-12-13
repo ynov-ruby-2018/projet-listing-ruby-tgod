@@ -31,8 +31,8 @@
           </div>
           <div class="col-md-4">
             <select data-do="select_currency" class="custom-select">>
-              <option value="eur" >EURO</option>
-              <option value="usd" >DOLLAR</option>
+              <option value="en" <%= "selected" if session[:locale] == 'en' %>>EN</option>
+              <option value="fr" <%= "selected" if session[:locale] == 'fr' %>>FR</option>
             </select>
           </div>
           <div class="col-md-2">
