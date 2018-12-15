@@ -7,6 +7,7 @@ class ListingsController < ApplicationController
     if @listing.blank?
       @listing = Listing.all.order('created_at DESC')
     end
+    @message = Message.new
   end
 
   def new
@@ -32,6 +33,13 @@ class ListingsController < ApplicationController
         :prix,
         :category_id,
         picture_attributes: [:file]).merge(user_id: current_user.id)
+  end
+
+  def messages_params
+    params.require(:message).permit(
+        :contenu,
+        :user_id
+    )
   end
 
 

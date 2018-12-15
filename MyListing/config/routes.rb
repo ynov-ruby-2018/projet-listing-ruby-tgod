@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     root to: "welcome#home"
     resources :listings
     resources :accounts
+    resources :messages
   end
 
 
