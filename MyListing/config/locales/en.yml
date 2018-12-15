@@ -40,6 +40,9 @@ en:
   price: "price"
   plug: "Contact seller"
   choose: "Choose a picture"
+  message: "Your message"
+  close: "Close"
+  submit: "Submit"
   homepage:
     create: "Create my listings"
     search: "Search"

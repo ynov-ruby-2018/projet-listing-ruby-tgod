@@ -11,6 +11,9 @@ fr:
   price: "prix"
   plug: "Contacter vendeur"
   choose: "Choisir une photo"
+  message: "Votre message"
+  close: "Fermer"
+  submit: "Envoyer"
   homepage:
     search: "Rechercher"
     create: "Creer mes listings"
