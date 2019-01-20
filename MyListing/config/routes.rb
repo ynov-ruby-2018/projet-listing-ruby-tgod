@@ -5,7 +5,11 @@ Rails.application.routes.draw do
   localized do
     root to: "welcome#home"
     resources :listings
-    resources :accounts
+    resources :account do
+      get 'contacts', on: :collection
+      get 'messages', on: :collection
+      get 'user', on: :collection
+    end
     resources :messages
   end
 
