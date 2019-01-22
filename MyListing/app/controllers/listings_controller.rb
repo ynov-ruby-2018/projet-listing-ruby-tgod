@@ -38,7 +38,8 @@ class ListingsController < ApplicationController
   def messages_params
     params.require(:message).permit(
         :contenu,
-        :user_id
+        :user_id,
+        :listing_id
     )
   end
 

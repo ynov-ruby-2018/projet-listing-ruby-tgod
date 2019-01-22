@@ -43,6 +43,13 @@ en:
   message: "Your message"
   close: "Close"
   submit: "Submit"
+  contacts: "My Contacts"
+  account:
+    messages: "My Messages"
+    contacts: "My Contacts"
+    profil: "My Profile"
+    message: "Message"
+    date: "Date"
   homepage:
     create: "Create my listings"
     search: "Search"
