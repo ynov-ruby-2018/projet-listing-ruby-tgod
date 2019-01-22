@@ -12,7 +12,8 @@ class MessagesController < ApplicationController
   def messages_params
     params.require(:message).permit(
         :contenu,
-        :vendeur
+        :vendeur,
+        :listing_id
     ).merge(user_id: current_user.id)
   end
 end

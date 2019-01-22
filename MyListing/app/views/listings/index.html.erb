@@ -34,6 +34,7 @@
                             <div class="modal-body">
                               <%= f.text_area :contenu, class: "form-control input-lg", placeholder: t("content") %>
                               <%= f.hidden_field :vendeur , :value => listing.user_id %>
+                              <%= f.hidden_field :listing_id, :value => listing.id %>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-dismiss="modal"><%= t("close") %></button>

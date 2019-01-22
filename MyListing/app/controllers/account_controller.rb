@@ -7,7 +7,7 @@ class AccountController < ApplicationController
   end
 
   def contacts
-
+    @contact = Message.where(vendeur: current_user.id).order('created_at DESC')
   end
 
   def user
@@ -15,7 +15,7 @@ class AccountController < ApplicationController
   end
 
   def messages
-    
+
   end
 
 end

@@ -1,0 +1,31 @@
+<div>
+  <br><br>
+  <div class="row">
+    <div class="col-md-3"><%= link_to t("account.contacts"), contacts_account_index_en_path , class:"btn btn-primary btn-sm btn-block"  %></div>
+    <div class="col-md-3 offset-md-2"><%= link_to t("account.messages"), messages_account_index_en_path %></div>
+    <div class="col-md-3"><%= link_to t("account.profil"), user_account_index_en_path  %></div>
+  </div>
+  <br>
+  <div>
+    <table class="table">
+      <thead class="thead-dark">
+      <tr>
+        <th scope="col"><%= t("image") %></th>
+        <th scope="col"><%= t("price") %></th>
+        <th scope="col"><%= t("account.date") %></th>
+        <th scope="col"><%= t("account.message") %></th>
+      </tr>
+      </thead>
+      <tbody>
+      <% @contact.each do |cont| %>
+        <tr>
+          <td><%= image_tag(cont.listing.picture.file.url(:original), class: "col-md-4 rounded d-block") %> </td>
+          <td><%= cont.listing.prix %>€</td>
+          <td><%= cont.created_at %></td>
+          <td><%= cont.contenu %></td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -24,7 +24,7 @@
           <div>
             <% if user_signed_in? %>
               <%= link_to ">>Logout", destroy_user_session_path, method: :delete, class:"font-weight-bold"  %>
-              <%= link_to ">>"+t("homepage.account"), account_index_en_path, method: :get, class:"font-weight-bold"  %>
+              <%= link_to ">>"+t("homepage.account"), user_account_index_en_path, method: :get, class:"font-weight-bold"  %>
             <% else %>
               <%= link_to ">>Login", new_user_session_path, class:"font-weight-bold"  %>
             <% end %>
