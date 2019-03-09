@@ -12,18 +12,6 @@
 
 ActiveRecord::Schema.define(version: 2019_01_22_100057) do
 
-  create_table "announcements", force: :cascade do |t|
-    t.string "titre"
-    t.text "description"
-    t.integer "prix"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.integer "category_id"
-    t.integer "user_id"
-    t.index ["category_id"], name: "index_announcements_on_category_id"
-    t.index ["user_id"], name: "index_announcements_on_user_id"
-  end
-
   create_table "categories", force: :cascade do |t|
     t.string "nom"
     t.datetime "created_at", null: false

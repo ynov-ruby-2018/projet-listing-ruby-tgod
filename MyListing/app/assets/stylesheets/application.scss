@@ -15,3 +15,10 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 
+body  {
+  background-image: url("https://images.unsplash.com/photo-1491542451321-54b31bd2d961?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+}
+
+.myForm{
+  margin-top: 38%;
+}

@@ -1,6 +1,6 @@
-<div class="row">
-  <%= form_tag(listings_en_path , method: :get) do %>
-    <%= text_field_tag :search , params[":search"]%>
-    <%= submit_tag t("homepage.search") , name: nil %>
+<div class="myForm">
+<%= form_tag(listings_en_path , method: :get,class:"col-md-12") do %>
+    <%= text_field_tag :search , params[":search"] , class:"col-md-9"%>
+    <%= submit_tag t("homepage.search") , name: nil , class:"btn btn-success" %>
   <%end %>
 </div>
