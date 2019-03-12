@@ -15,10 +15,26 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 
-body  {
-  background-image: url("https://images.unsplash.com/photo-1491542451321-54b31bd2d961?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+html{
+  height: 100%;
+}
+
+.new_user{
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
 }
 
 .myForm{
-  margin-top: 38%;
+  margin-top: 15%;
+  margin-left: 12%;
+  width: 91%;
+
+  h1{
+    color:white;
+    margin-left: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder
+  }
 }

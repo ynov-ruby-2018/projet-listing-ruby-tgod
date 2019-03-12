@@ -54,6 +54,7 @@ en:
     create: "Create my listings"
     search: "Search"
     account: "My Account"
+    find: "You're going to find"
   activerecord:
     errors:
       models:
