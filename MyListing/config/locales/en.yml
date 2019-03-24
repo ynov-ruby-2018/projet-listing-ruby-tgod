@@ -43,6 +43,7 @@ en:
   message: "Your message"
   close: "Close"
   submit: "Submit"
+  save: "Save"
   contacts: "My Contacts"
   account:
     messages: "My Messages"
