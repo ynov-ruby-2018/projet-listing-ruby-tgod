@@ -1,7 +1,18 @@
 <section class="container-fluid nav_account">
 
 <div>
-      <% @listing.each do |listing| %>
+    <% i = 0 %>
+    <% @listing.each do
+      i = i + 1
+    end %>
+    <% if i == 0 %>
+      <h3 > <%= t('no_result') %> </h3>
+    <% end %>
+  <% @listing.each do |listing| %>
+    <%= print listing %>
+    <% if listing.blank? %>
+      <%= t('no_result') %>
+    <%end %>
         <div>
           <div><%= listing.titre %></div>
           <div class="row">

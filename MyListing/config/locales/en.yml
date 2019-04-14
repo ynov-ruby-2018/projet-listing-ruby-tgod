@@ -45,6 +45,7 @@ en:
   submit: "Submit"
   save: "Save"
   contacts: "My Contacts"
+  no_result: "We are sorry but there is no result for this research"
   account:
     messages: "My Messages"
     contacts: "My Contacts"
