@@ -1,0 +1,23 @@
+<header>
+  <h4><%= link_to 'Listing', root_path, class: "title"%></h4>
+  <!-- Login / LogOut option-->
+  <% if user_signed_in? %>
+    <p class="bouton_log out">
+      <%= link_to "Logout", destroy_user_session_path, method: :delete, class:"font-weight-bold"  %>
+    </p>
+    <p class="bouton_log">
+      <%= link_to t("homepage.account"), edit_user_registration_path, method: :get, class:"font-weight-bold"  %>
+    </p>
+  <% else %>
+    <p class="bouton_log in">
+      <%= link_to "Login", new_user_session_path, class:"font-weight-bold"  %>
+    </p>
+  <% end %>
+  <label class="the_selector">
+    <select data-do="select_language" class="form-control language">
+      <option value="en" <%= "selected" if session[:language] == 'en' %>>En</option>
+      <option value="fr" <%= "selected" if session[:language] == 'fr' %>>Fr</option>
+    </select>
+  </label>
+  <h4> <%= link_to t("homepage.create"), new_listing_en_path , class:"btn btn-success homeSearch green_button' " %></h4>
+</header>

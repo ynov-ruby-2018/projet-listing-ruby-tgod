@@ -15,6 +15,86 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 
+header{
+  background-color: dimgray;
+  opacity: 0.8;
+  display: flex;
+  padding: 10px 15px;
+  justify-content: space-between;
+  color: white;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+select, option{
+  cursor: pointer;
+}
+header>h4, header>label.the_selector, header>p{
+  margin: auto 0;
+}
+header>h4:first-of-type{
+  align-self: flex-start;
+  width: 70%;
+}
+
+header>h4:first-of-type{
+  font-size: 30px;
+}
+header>h4:last-of-type, header>label.the_selector>select.language>p, header>p.bouton_log{
+  font-size: 14px;
+}
+header>p.bouton_log{
+  position: relative;
+  margin: auto 15px;
+}
+header>p.bouton_log:before{
+  position: absolute;
+  font-size: 14px;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "» ";
+}
+header>p.bouton_log.out:before{
+  color: red;
+}
+
+header>label.the_selector>select.language{
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius: 0;
+  border: none;
+  background-color: #999999;
+  color: white;
+  padding: 0 10px;
+  margin: 0;
+  outline:none;
+  display: inline-block;
+  /*
+
+  Fix custom arrow can't be clicked
+
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  */
+}
+header>label.the_selector{
+  position: relative;
+  width: 5%;
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+a:hover{
+  text-decoration: none;
+  color: unset;
+}
+
 html{
   height: 100%;
 }
@@ -26,16 +106,81 @@ html{
   margin: auto;
 }
 
-
-.myForm{
-  margin-top: 15%;
-  margin-left: 12%;
-  width: 91%;
-
-  h1{
-    color:white;
-    margin-left: 20%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bolder
-  }
+section.home{
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1491542451321-54b31bd2d961?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-size: cover;
 }
+
+section.home input.search{
+  position: absolute;
+  top: calc(50% - 18px);
+  left: 50%;
+  width: 40%;
+  height: 36px;
+  transform: translateX(-65%);
+  border: none;
+  border-radius: 0;
+}
+section.home input.search_submit{
+  position: absolute;
+  top: calc(50% - 18px);
+  left: 65%;
+  width: 10%;
+  height: 36px;
+  border-radius: 0;
+}
+
+section.home>h1{
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  top: 36%;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.grey_button{
+  border-radius: 0;
+  border: 1px solid white;
+  background-color: #465E6A;
+  transition: 0.3s;
+
+}
+.grey_button:hover, .grey_button:focus, .grey_button:active, .grey_button:hover:active, .grey_button:disabled, .grey_button:hover:disabled, .grey_button:not(:disabled):not(.disabled):active{
+  color: #465E6A;
+  border: 1px solid #465E6A;
+  background-color: white;
+}
+.green_button{
+  border-radius: 0;
+  background-color: #00B871;
+  transition: 0.3s;
+  border: 1px solid #00B871;
+}
+.green_button:hover, .green_button:focus, .green_button:active, .green_button:hover:active, .green_button:disabled, .green_button:hover:disabled, .green_button:not(:disabled):not(.disabled):active{
+  color: #00B871;
+  background-color: white;
+  border: 1px solid #00B871;
+}
+
+.homeSearch {
+    position: absolute;
+    top: calc(50% - 18px);
+    left: 56%;
+    height: 36px;
+    border-radius: 0;
+}
+
+.nav_account {
+  width: 90%;
+  margin: 77px auto;
+}
+
