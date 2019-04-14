@@ -14,6 +14,7 @@ fr:
   message: "Votre message"
   close: "Fermer"
   submit: "Envoyer"
+  save: "Enregistrer"
   account:
     messages: "Mes Messages"
     contacts: "Mes Contacts"
@@ -24,7 +25,7 @@ fr:
     search: "Rechercher"
     create: "Creer mes listings"
     account: "Mon Compte"
-    find: "You're going to find"
+    find: "Qu'est-ce que vous recherchez ?"
   date:
     day_names:
     - "Lundi"

@@ -1,13 +1,9 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
-  before_action :set_locale
+  before_action :set_language
 
-  private
-
-  def set_locale
-    if !session[:locale]
-      session[:locale] = 'eur'
+  def set_language
+    if !session[:language]
+      session[:langage] = 'en'
     end
   end
-
 end
