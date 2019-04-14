@@ -15,6 +15,7 @@ fr:
   close: "Fermer"
   submit: "Envoyer"
   save: "Enregistrer"
+  no_result: "Nous sommes désolés mais il n'y a aucun resultats pour votre recherche"
   account:
     messages: "Mes Messages"
     contacts: "Mes Contacts"
