@@ -1,16 +1,11 @@
-<style>
-  body {
-    background-image: url("https://images.unsplash.com/photo-1491542451321-54b31bd2d961?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
-  }
-</style>
-<div class="myForm">
+<section class="home">
+
   <h1 ><%= t("homepage.find") %></h1>
-<%= form_tag(listings_en_path , method: :get,class:"col-md-12") do %>
-    <div class="form-group row">
-      <%= text_field_tag :search , params[":search"] , class:"col-md-9 form-control"%>
-      <div>
-        <%= submit_tag t("homepage.search") , name: nil , class:"btn btn-success" %>
-      </div>
-    </div>
+  <div>
+<%= form_tag(listings_en_path , method: :get) do %>
+      <%= text_field_tag :search , params[":search"] , class:"form-control search"%>
+        <%= submit_tag t("homepage.search") , name: nil , class: 'btn btn-success search_submit ' %>
   <%end %>
 </div>
+</section>
+

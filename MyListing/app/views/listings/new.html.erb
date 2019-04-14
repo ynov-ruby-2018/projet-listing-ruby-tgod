@@ -1,8 +1,5 @@
-<style>
-  nav {
-    opacity: inherit !important;
-  }
-</style>
+
+<section class="container-fluid nav_account">
 <%= simple_form_for  @listing do |f| %>
     <%= f.input :titre, label: t("title") %>
     <%= f.input :description, label: t("description")%>
@@ -13,3 +10,4 @@
     <% end %>
     <%= f.button :submit , {class:'btn btn-success'} %>
   <% end %>
+</section>
