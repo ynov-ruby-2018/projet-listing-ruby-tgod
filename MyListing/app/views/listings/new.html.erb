@@ -1,4 +1,9 @@
-  <%= simple_form_for  @listing do |f| %>
+<style>
+  nav {
+    opacity: inherit !important;
+  }
+</style>
+<%= simple_form_for  @listing do |f| %>
     <%= f.input :titre, label: t("title") %>
     <%= f.input :description, label: t("description")%>
     <%= f.association :category ,label: t("category"), label_method: :nom, value_method: :id, include_blank: false %>

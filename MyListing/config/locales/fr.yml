@@ -14,6 +14,7 @@ fr:
   message: "Votre message"
   close: "Fermer"
   submit: "Envoyer"
+  save: "Enregistrer"
   account:
     messages: "Mes Messages"
     contacts: "Mes Contacts"
