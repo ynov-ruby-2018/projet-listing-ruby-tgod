@@ -45,7 +45,20 @@ gem 'simple_form' #https://github.com/plataformatec/simple_form
 
 
 gem "paperclip", "~> 6.0.0" #https://github.com/thoughtbot/paperclip
-
+group :test do
+  gem 'launchy'
+  gem 'minitest'
+  gem 'minitest-focus'
+  gem 'minitest-rails'
+  gem 'minitest-rails-capybara'
+  gem 'minitest-matchers'
+  gem 'minitest-metadata'
+  gem 'minitest-profiler'
+  gem 'capybara-email'
+  gem 'warden'
+  gem 'selenium-webdriver'
+  gem 'chromedriver-helper'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
