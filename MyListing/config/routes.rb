@@ -6,13 +6,21 @@ Rails.application.routes.draw do
     root to: "welcome#home"
     resources :listings
     resources :languages, only: :show
+    resources :messages
+
 
     resources :account do
       get 'contacts', on: :collection
       get 'messages', on: :collection
       get 'user', on: :collection
     end
-    resources :messages
+
+    namespace :api, format: 'json' do
+      namespace :v1 do
+        post 'auth', to: 'auth#create'
+      end
+    end
+
   end
 
 

@@ -43,6 +43,8 @@ en:
   message: "Your message"
   close: "Close"
   submit: "Submit"
+  login: "Login"
+  logout: "Logout"
   save: "Save"
   contacts: "My Contacts"
   no_result: "We are sorry but there is no result for this research"
@@ -64,3 +66,7 @@ en:
           attributes:
             title:
               blank: "Title can't be blank"
+        user:
+          attributes:
+            auth:
+              blank: "you are not authenticated"

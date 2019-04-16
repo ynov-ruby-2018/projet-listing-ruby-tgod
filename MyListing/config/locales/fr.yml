@@ -14,6 +14,8 @@ fr:
   message: "Votre message"
   close: "Fermer"
   submit: "Envoyer"
+  login: "Connexion"
+  logout: "Deconnexion"
   save: "Enregistrer"
   no_result: "Nous sommes désolés mais il n'y a aucun resultats pour votre recherche"
   account:
@@ -48,3 +50,7 @@ fr:
           attributes:
             title:
               blank: "Le titre doit être saisi"
+        user:
+          attributes:
+            auth:
+              blank: "Vous n'êtes pas authentifiés"

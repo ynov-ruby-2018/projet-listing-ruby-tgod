@@ -6,4 +6,17 @@ class User < ApplicationRecord
 
    has_many :messages
    has_many :listings
+
+  def fullname
+    "#{email}"
+  end
+
+  def generate_token
+    self.auth_token = SecureRandom.uuid
+    if self.save
+      return auth_token
+    else
+      return nil
+    end
+  end
 end

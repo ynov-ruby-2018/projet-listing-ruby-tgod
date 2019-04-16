@@ -158,9 +158,6 @@ GEM
     minitest-rails (3.0.0)
       minitest (~> 5.8)
       railties (~> 5.0)
-    minitest-rails-capybara (0.0.2)
-      capybara
-      minitest-rails
     msgpack (1.2.4)
     multi_json (1.13.1)
     nested_form (0.3.2)
@@ -174,6 +171,7 @@ GEM
       mime-types
       mimemagic (~> 0.3.0)
       terrapin (~> 0.6.0)
+    pg (1.1.4)
     popper_js (1.14.3)
     public_suffix (3.0.3)
     puma (3.12.0)
@@ -312,8 +310,8 @@ DEPENDENCIES
   minitest-metadata
   minitest-profiler
   minitest-rails
-  minitest-rails-capybara
   paperclip (~> 6.0.0)
+  pg
   puma (~> 3.11)
   rails (~> 5.2.1)
   rails_admin (~> 1.3)
