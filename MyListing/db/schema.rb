@@ -10,7 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_14_143321) do
+ActiveRecord::Schema.define(version: 2019_04_16_083212) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "categories", force: :cascade do |t|
     t.string "nom"
@@ -24,8 +27,8 @@ ActiveRecord::Schema.define(version: 2019_04_14_143321) do
     t.integer "prix"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id"
-    t.integer "category_id"
+    t.bigint "user_id"
+    t.bigint "category_id"
     t.index ["category_id"], name: "index_listings_on_category_id"
     t.index ["user_id"], name: "index_listings_on_user_id"
   end
@@ -34,9 +37,9 @@ ActiveRecord::Schema.define(version: 2019_04_14_143321) do
     t.text "contenu"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id"
+    t.bigint "user_id"
     t.integer "vendeur"
-    t.integer "listing_id"
+    t.bigint "listing_id"
     t.index ["listing_id"], name: "index_messages_on_listing_id"
     t.index ["user_id"], name: "index_messages_on_user_id"
   end
@@ -44,7 +47,7 @@ ActiveRecord::Schema.define(version: 2019_04_14_143321) do
   create_table "pictures", force: :cascade do |t|
     t.string "name"
     t.string "imageable_type"
-    t.integer "imageable_id"
+    t.bigint "imageable_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "file_file_name"
@@ -65,8 +68,13 @@ ActiveRecord::Schema.define(version: 2019_04_14_143321) do
     t.string "firstname"
     t.string "lastname"
     t.boolean "is_admin", default: false
+    t.string "auth_token"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "listings", "categories"
+  add_foreign_key "listings", "users"
+  add_foreign_key "messages", "listings"
+  add_foreign_key "messages", "users"
 end
